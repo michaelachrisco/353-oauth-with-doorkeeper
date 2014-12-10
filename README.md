@@ -2,8 +2,8 @@
 
 http://railscasts.com/episodes/353-oauth-with-doorkeeper
 
-Requires Ruby 1.9.2 or higher.
-
+Works with jruby-1.7.16.1
+Client works with Ruby
 
 ### Commands used in this episode
 
@@ -27,3 +27,4 @@ access.get("/api/tasks").parsed
 access.post("/api/tasks", params: {task: {name: "test oauth"}})
 access.get("/api/user").parsed
 ```
+
